@@ -63,12 +63,10 @@ node build/index.js
     "markmap": {
       "type": "stdio",
       "command": "npx",
-      "args": [
-        "-y",
-        "@jinzcdev/markmap-mcp-server",
-        "--output",
-        "/path/to/output/directory"
-      ]
+      "args": ["-y", "@jinzcdev/markmap-mcp-server"],
+      "env": {
+        "MARKMAP_DIR": "/path/to/output/directory"
+      }
     }
   }
 }
