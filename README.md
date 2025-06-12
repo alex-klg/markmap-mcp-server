@@ -10,6 +10,10 @@
 
 Markmap MCP Server is based on the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) that allows one-click conversion of Markdown text to interactive mind maps, built on the open source project [markmap](https://github.com/markmap/markmap). The generated mind maps support rich interactive operations and can be exported in various image formats.
 
+> 🎉 **Explore More Mind Mapping Tools**
+>
+> Try [MarkXMind](https://github.com/jinzcdev/markxmind) - An online editor that creates complex mind maps using simple XMindMark syntax. It supports real-time preview, multi-format export (.xmind/.svg/.png), importing existing XMind files. [Try it now](https://markxmind.js.org/)!
+
 ## Features
 
 - 🌠 **Markdown to Mind Map**: Convert Markdown text to interactive mind maps
@@ -20,7 +24,7 @@ Markmap MCP Server is based on the [Model Context Protocol (MCP)](https://modelc
 
 ## Prerequisites
 
-1. Node.js runtime environment
+1. Node.js (v20 or above)
 
 ## Installation
 
@@ -116,4 +120,4 @@ Convert Markdown text into an interactive mind map.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT](./LICENSE) License.
