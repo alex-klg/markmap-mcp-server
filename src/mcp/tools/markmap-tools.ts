@@ -37,7 +37,8 @@ export class MarkmapToolRegistry extends ToolRegistry {
                             {
                                 type: "text",
                                 text: JSON.stringify({
-                                    filePath: result.filePath
+                                    filePath: result.filePath,
+                                    content: result.content
                                 })
                             }
                         ]
